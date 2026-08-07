@@ -50,7 +50,7 @@ docrag/
 Once deployed, using it is exactly four steps — nothing to install:
 
 ```
-Open the Space  →  Upload a PDF  →  Wait ~10 seconds  →  Ask questions
+Open the Space  →  Upload a PDF  →  Wait 10 seconds  →  Ask questions
 ```
 
 ## Deploying to Hugging Face Spaces
