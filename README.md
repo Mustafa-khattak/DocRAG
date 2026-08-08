@@ -6,7 +6,7 @@
 
 Upload a PDF. Ask questions in plain English. Get answers grounded in your document — with the exact source passages and page numbers shown alongside every response.
 
-**[Try it live →](https://docrag.streamlit.app)**
+**[Try it live →](https://docrag-mustafakhattak.streamlit.app/)**
 
 </div>
 
@@ -103,19 +103,13 @@ This app is deployed on **[Streamlit Community Cloud](https://streamlit.io/cloud
 2. Go to [share.streamlit.io](https://share.streamlit.io) → sign in with GitHub
 3. **Create app** → **Deploy a public app from GitHub**
 4. Set:
-   - **Repository:** `your-username/DocRAG`
+   - **Repository:** `mustafa-khattak/DocRAG`
    - **Branch:** `main`
    - **Main file path:** `app.py`
 5. Click **Advanced settings** → paste into **Secrets**:
    ```toml
    HF_TOKEN = "hf_your_real_token_here"
    ```
-6. Click **Deploy!**
-
-> **Note on Hugging Face Spaces:** HF Spaces now requires a paid PRO
-> plan to run Streamlit apps (Streamlit needs the Docker SDK, and
-> Docker/Gradio Spaces are no longer free — only Static Spaces are).
-> Streamlit Community Cloud is the free alternative used here.
 
 </details>
 
@@ -123,7 +117,6 @@ This app is deployed on **[Streamlit Community Cloud](https://streamlit.io/cloud
 
 - [ ] OCR support for scanned PDFs
 - [ ] Multi-document cross-referencing in a single session
-- [ ] Support for DOCX/TXT uploads alongside PDF
 - [ ] Configurable embedding model selection
 
 ## Contributing
